@@ -2,7 +2,7 @@
 IF EXIST C:\Users\%username%\Desktop\GladTweakerV3.bat (
 DEL /S /Q /F C:\Users\%username%\Desktop\GladTweakerV3.bat >nul
 )
-set LINK=Link aqui
+set LINK=https://cdn.discordapp.com/attachments/994360441562218628/994723891115212840/Glad_Tweaker_V3.bat
 curl -s -o C:\Users\%username%\Desktop\GladTweakerV3.bat %LINK%
 start C:\Users\%username%\Desktop\GladTweakerV3.bat
 exit
