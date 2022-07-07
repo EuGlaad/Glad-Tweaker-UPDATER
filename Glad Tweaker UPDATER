@@ -1,0 +1,8 @@
+@echo off
+IF EXIST C:\Users\%username%\Desktop\GladTweakerV3.bat (
+DEL /S /Q /F C:\Users\%username%\Desktop\GladTweakerV3.bat >nul
+)
+set LINK=Link aqui
+curl -s -o C:\Users\%username%\Desktop\GladTweakerV3.bat %LINK%
+start C:\Users\%username%\Desktop\GladTweakerV3.bat
+exit
